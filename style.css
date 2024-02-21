@@ -1,0 +1,37 @@
+.adContainer{
+    border: solid black;
+    height:12vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: purple;
+    /* This is the parent html element */
+}
+
+.leftArrow{
+    border: solid red;
+    width: 100px;
+    /* These elements that are under are child elements */
+}
+
+.rightArrow{
+    border: solid green;
+    width: 100px;
+}
+
+.adText{
+    border: solid gray;
+    height: 30px;
+    background-color: azure;
+}
+
+.adLink{
+    border: solid gray;
+    height: 30px;
+    background-color: azure;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
